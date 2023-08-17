@@ -2,24 +2,59 @@
 
 body {
     margin: 0;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     display: flex;
     flex-direction: row;
+    width: 575px;
+    height: 375px;
+    border-radius: 10px;
+    background: #1B244A;
+    
     
 }
-
-.score{
+.score--title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+.score--number{
     background: black;
     color: #fff;
-    height: 120px;
+    height: 110px;
     width: 155px;
-    font-family: 'Cursed Timer ULiL', sans-serif;
     font-size: 100px;
+    color: #F94F6D;
     display: flex;
     align-items: center;
+    padding-top: 10px;
     justify-content: center;
+    border-radius: 5px;
 }
+.addpoint{
+    width: 45px;
+    height: 45px;
+    background: transparent;
+    border: 2px solid #9AABD8;
+    border-radius: 3px;
+    color: #9AABD8;
+}
+.buttongroup{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
