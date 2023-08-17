@@ -1,3 +1,4 @@
+<!DOCTYPE HTML>
 <html>
     <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
@@ -6,24 +7,24 @@
         <div class="container">
             <div class="score">
                 <h3 class="score--title">HOME</h3>
-                <div class="score--number">
+                <div class="score--number" id="home-score">
                     0
                 </div>
                 <div class="buttongroup">
-                    <button class="addpoint">+1</button>
-                    <button class="addpoint">+2</button>
-                    <button class="addpoint">+3</button>
+                    <button class="addpoint" onclick="addPoint(1, 1)">+1</button>
+                    <button class="addpoint" onclick="addPoint(1, 2)">+2</button>
+                    <button class="addpoint" onclick="addPoint(1, 3)">+3</button>
                 </div>
             </div>
             <div class="score">
                 <h3 class="score--title">GUEST</h3>
-                <div class="score--number">
+                <div class="score--number" id="guest-score">
                     0
                 </div>
                 <div class="buttongroup">
-                    <button class="addpoint">+1</button>
-                    <button class="addpoint">+2</button>
-                    <button class="addpoint">+3</button>
+                    <button class="addpoint" onclick="addPoint(0, 1)">+1</button>
+                    <button class="addpoint" onclick="addPoint(0, 2)">+2</button>
+                    <button class="addpoint" onclick="addPoint(0, 3)">+3</button>
                 </div>
             </div>
         </div>

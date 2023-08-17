@@ -19,13 +19,12 @@ body {
     width: 575px;
     height: 375px;
     border-radius: 10px;
-    background: #1B244A;
-    
-    
+    background: #1B244A;    
 }
 .score--title{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 45px;
+    color: #fff;
     text-align: center;
     font-weight: bold;
     margin: 0 0 20px 0;
@@ -50,6 +49,10 @@ body {
     border: 2px solid #9AABD8;
     border-radius: 3px;
     color: #9AABD8;
+}
+.addpoint:hover{
+    color: #fff;
+    border-color: #fff;
 }
 .buttongroup{
     display: flex;
