@@ -53,6 +53,7 @@ body {
 .addpoint:hover{
     color: #fff;
     border-color: #fff;
+    cursor: pointer;
 }
 .buttongroup{
     display: flex;
