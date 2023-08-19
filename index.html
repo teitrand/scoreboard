@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="score">
-                <h3 class="score--title">AWAY</h3>
+                <h3 class="score--title">GUEST</h3>
                 <div class="score--number" id="guest-score">
                     0
                 </div>
@@ -26,6 +26,12 @@
                     <button class="addpoint" onclick="addPoint(0, 2)">+2</button>
                     <button class="addpoint" onclick="addPoint(0, 3)">+3</button>
                 </div>
+            </div>
+            <div class="controls">
+                <div>
+                    <button onclick="reset()" class="controls--button">Reset Counters</button>
+                    <p id="error"></p>
+                </div>                
             </div>
         </div>
         <script src="index.js"></script>
